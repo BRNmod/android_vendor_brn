@@ -27,4 +27,12 @@
 
     <!-- Default for Settings.Secure.STATS_COLLECTION. -->
     <bool name="def_cm_stats_collection">true</bool>
+
+    <!-- Disable annoying sound notifications by default -->
+    <bool name="def_dtmf_tones_enabled">false</bool>
+    <integer name="def_lockscreen_sounds_enabled">0</integer>
+    <bool name="def_sound_effects_enabled">false</bool>
+
+    <!-- allow install from untrusted sources -->
+    <bool name="def_install_non_market_apps">false</bool>
 </resources>
