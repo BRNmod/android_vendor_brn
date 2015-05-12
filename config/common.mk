@@ -156,13 +156,13 @@ PRODUCT_PACKAGES += \
     SetupWizard
 
 # microg location and google apis
-PRODUCT_PACKAGES +=
+PRODUCT_PACKAGES += \
 	GmsCore \
 	com.google.android.maps \
 	com.google.android.maps.xml
 
 # xposed
-# PRODUCT_PACKAGES +=
+# PRODUCT_PACKAGES += \
 	# xposed \
         # xposed_art \
 	# XposedBridge \
