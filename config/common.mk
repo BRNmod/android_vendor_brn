@@ -149,18 +149,24 @@ PRODUCT_PACKAGES += \
     CMUpdater \
     CMAccount \
     CMHome \
-    CyanogenSetupWizard
+
+
+# Custom BRNmod packages
+PRODUCT_PACKAGES += \
+    SetupWizard
 
 # microg location and google apis
-PRODUCT_PACKAGES += GmsCore \
-		    com.google.android.maps \
-		    com.google.android.maps.xml
+PRODUCT_PACKAGES +=
+	GmsCore \
+	com.google.android.maps \
+	com.google.android.maps.xml
 
 # xposed
-PRODUCT_PACKAGES += xposed \
-        	    xposed_art \
-		    XposedBridge \
-		    XposedInstaller
+# PRODUCT_PACKAGES +=
+	# xposed \
+        # xposed_art \
+	# XposedBridge \
+	# XposedInstaller
 
 # BRN apps
 PRODUCT_PACKAGES += F-Droid
