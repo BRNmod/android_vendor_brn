@@ -147,26 +147,18 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMUpdater \
     CMAccount \
-    CMHome \
-
+    CMHome
 
 # Custom BRNmod packages
 PRODUCT_PACKAGES += \
     SetupWizard \
-	OpenDelta
+    OpenDelta
 
 # microg location and google apis
 PRODUCT_PACKAGES += \
 	GmsCore \
 	com.google.android.maps \
 	com.google.android.maps.xml
-
-# xposed
-# PRODUCT_PACKAGES += \
-	# xposed \
-        # xposed_art \
-	# XposedBridge \
-	# XposedInstaller
 
 # BRN apps
 PRODUCT_PACKAGES += F-Droid
