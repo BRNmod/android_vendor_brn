@@ -152,7 +152,8 @@ PRODUCT_PACKAGES += \
 
 # Custom BRNmod packages
 PRODUCT_PACKAGES += \
-    SetupWizard
+    SetupWizard \
+	OpenDelta
 
 # microg location and google apis
 PRODUCT_PACKAGES += \
