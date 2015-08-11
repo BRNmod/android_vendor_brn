@@ -25,7 +25,7 @@
     <string name="url_base_full">https://dl.brnmod.rocks/%s/</string>
 
     <!-- URL base to fetch all builds -->
-    <string name="url_base_json">http://dl.brnmod.rocks/files.json"</string>
+    <string name="url_base_json">https://dl.brnmod.rocks/files.json"</string>
 
     <!-- Applies whole-file signature delta. Adds one extra delta step. Required if recovery verifies signatures -->
     <item type="bool" name="apply_signature">true</item>
