@@ -149,7 +149,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMUpdater \
     CMAccount \
-    CMHome
+    CMHome \
+	CMSettingsProvider
 
 # Custom BRNmod packages
 PRODUCT_PACKAGES += \
@@ -163,7 +164,8 @@ PRODUCT_PACKAGES += \
 	com.google.android.maps.xml
 
 # BRN apps
-PRODUCT_PACKAGES += F-Droid
+PRODUCT_PACKAGES += \
+	F-Droid
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
