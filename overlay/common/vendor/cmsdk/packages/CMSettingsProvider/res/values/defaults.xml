@@ -24,7 +24,4 @@
     <integer name="def_qs_quick_pulldown">1</integer>
 
     <!-- Defaults for Secure -->
-
-    <!-- Default for CMSettings.Secure.STATS_COLLECTION -->
-    <bool name="def_stats_collection">true</bool>
 </resources>
