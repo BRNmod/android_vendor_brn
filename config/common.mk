@@ -169,7 +169,8 @@ PRODUCT_PACKAGES += \
 
 # BRN apps
 PRODUCT_PACKAGES += \
-	F-Droid
+	F-Droid \
+	F-Droid_PrivExt
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
